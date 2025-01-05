@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trending</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #222;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .video {
+            width: 250px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .video img {
+            width: 100%;
+            height: auto;
+        }
+        .video-title {
+            padding: 10px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .video-description {
+            padding: 0 10px 10px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Trending</h1>
+    </header>
+
+    <div class="video-container">
+        <div class="video">
+            <img src="https://via.placeholder.com/250x140" alt="Video Thumbnail">
+            <div class="video-title">Trending Video 1</div>
+            <div class="video-description">This is a description of the first trending video.</div>
+        </div>
+
+        <div class="video">
+            <img src="https://via.placeholder.com/250x140" alt="Video Thumbnail">
+            <div class="video-title">Trending Video 2</div>
+            <div class="video-description">This is a description of the second trending video.</div>
+        </div>
+
+        <div class="video">
+            <img src="https://via.placeholder.com/250x140" alt="Video Thumbnail">
+            <div class="video-title">Trending Video 3</div>
+            <div class="video-description">This is a description of the third trending video.</div>
+        </div>
+
+        <div class="video">
+            <img src="https://via.placeholder.com/250x140" alt="Video Thumbnail">
+            <div class="video-title">Trending Video 4</div>
+            <div class="video-description">This is a description of the fourth trending video.</div>
+        </div>
+    </div>
+
+</body>
+</html>
